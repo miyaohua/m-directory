@@ -1,5 +1,3 @@
-import { createApp } from "vue";
-import App from "./App.vue"; // 导入根组件
+import Mdirectory from "./index";
 
-const app = createApp(App);
-app.mount("#app");
+export default Mdirectory;

@@ -1,18 +1,19 @@
 {
-  "name": "m-directory",
-  "private": true,
-  "version": "0.0.0",
+  "name": "mi-directory",
+  "private": false,
+  "version": "0.0.5",
   "type": "module",
+  "main": "dist/mi-directory.cjs",
+  "module": "dist/mi-directory.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
-  "dependencies": {
-    "vue": "^3.3.11"
-  },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^4.5.2",
     "vite": "^5.0.8"
   }
 }
